@@ -4,7 +4,6 @@
 h1 {
     color: #ff0000
     }
-
 }
 .h1 {
     font-size: 20px;
@@ -34,7 +33,7 @@ h1 {
     border: 2px solid rosybrown;
 }
 .body-wrapper{
-    background-color: #ff0000;
+    background-color: lightsalmon;
 }
 .body-wrapper .kt{
    float: left;
@@ -90,7 +89,40 @@ header ul li {
     opacity: 0.8;
    }
    div:hover {
-       background-color: purple;
+       background-color:gainsboro;
    }
 
-   
+   h1 {
+       background-color: gainsboro;
+   }
+   h2 {
+       background-color: gainsboro;
+   }
+   .header-right a {
+    line-height: 10px;
+    padding: 15px;
+    color:black;
+    display: block;
+    font-size: 15px;
+   }
+   .header-right {
+    float: right;
+    transition: all 0.5s;
+   }
+   .header-right:hover {
+    background-color: rgb(245, 10, 10);
+  }
+  .btn-find{
+      font-size: 25px;
+      text-align: left;
+      font-style: italic;
+      color: blue;
+  }
+  .btn-follow {
+    font-size: 25px;
+    text-align: left;
+    font-style: italic;
+    color: blue;
+  }
+
+  
